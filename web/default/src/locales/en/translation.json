@@ -445,7 +445,7 @@
     "personal": {
       "general": {
         "title": "General Settings",
-        "system_token_notice": "Note: The token generated here is for system management, not for requesting OpenAI related services.",
+        "system_token_notice": "Note: The token generated here is for system management, not for business API calls.",
         "buttons": {
           "update_profile": "Update Profile",
           "generate_token": "Generate System Token",
@@ -626,7 +626,7 @@
         },
         "completion": {
           "title": "Completion Ratio",
-          "placeholder": "A JSON text where keys are model names and values are ratios. These ratios are the proportion of completion to prompt ratio, which can override One API's internal ratios"
+          "placeholder": "A JSON text where keys are model names and values are ratios. These ratios are the proportion of completion to prompt ratio, which can override internal system ratios"
         },
         "group": {
           "title": "Group Ratio",
@@ -723,20 +723,20 @@
         }
       },
       "copyright": {
-        "notice": "Removing One API's copyright notice requires authorization. Project maintenance requires significant effort, if this project is meaningful to you, please actively support it."
+        "notice": "The default footer shows FrameBridge API and the open-source license."
       }
     }
   },
   "footer": {
-    "built_by": "built by",
-    "built_by_name": "JustSong",
-    "license": ", source code is licensed under the",
+    "built_by": "",
+    "built_by_name": "",
+    "license": "source code is licensed under the",
     "mit": "MIT License"
   },
   "home": {
     "welcome": {
-      "title": "Welcome to One API",
-      "description": "One API is a LLM API management and distribution system that helps you better manage and use LLM APIs from various providers.",
+      "title": "Welcome to FrameBridge API",
+      "description": "FrameBridge API is a Seedance video generation API relay prototype with user, channel, quota, and admin capabilities.",
       "login_notice": "To use the service, please login or register first."
     },
     "system_status": {
@@ -746,7 +746,7 @@
         "name": "Name: ",
         "version": "Version: ",
         "source": "Source: ",
-        "source_link": "GitHub Repository",
+        "source_link": "Local fork build",
         "start_time": "Start Time: "
       },
       "config": {
@@ -806,8 +806,8 @@
   },
   "about": {
     "title": "About",
-    "description": "One API is an open-source API management and proxy platform.",
-    "repository": "Repository: ",
+    "description": "FrameBridge API is a Seedance video generation API relay prototype with user, channel, quota, and admin capabilities.",
+    "repository": "Positioning: ",
     "loading_failed": "Loading failed"
   },
   "messages": {

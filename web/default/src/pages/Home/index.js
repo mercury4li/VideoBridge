@@ -132,13 +132,9 @@ const Home = () => {
                           <span style={{ fontWeight: 'bold' }}>
                             {t('home.system_status.info.source')}
                           </span>
-                          <a
-                            href='https://github.com/songquanpeng/one-api'
-                            target='_blank'
-                            style={{ color: '#2185d0' }}
-                          >
+                          <span style={{ color: '#2185d0' }}>
                             {t('home.system_status.info.source_link')}
-                          </a>
+                          </span>
                         </p>
                         <p
                           style={{

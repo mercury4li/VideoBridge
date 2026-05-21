@@ -445,7 +445,7 @@
     "personal": {
       "general": {
         "title": "通用设置",
-        "system_token_notice": "注意，此处生成的令牌用于系统管理，而非用于请求 OpenAI 相关的服务，请知悉。",
+        "system_token_notice": "注意，此处生成的令牌用于系统管理，而非用于业务 API 调用，请知悉。",
         "buttons": {
           "update_profile": "更新个人信息",
           "generate_token": "生成系统访问令牌",
@@ -624,7 +624,7 @@
         },
         "completion": {
           "title": "补全倍率",
-          "placeholder": "为一个 JSON 文本，键为模型名称，值为倍率，此处的倍率设置是模型补全倍率相较于提示倍率的比例，使用该设置可强制覆盖 One API 的内部比例"
+          "placeholder": "为一个 JSON 文本，键为模型名称，值为倍率，此处的倍率设置是模型补全倍率相较于提示倍率的比例，使用该设置可强制覆盖系统内部倍率"
         },
         "group": {
           "title": "分组倍率",
@@ -719,26 +719,26 @@
         }
       },
       "copyright": {
-        "notice": "移除 One API 的版权标识必须首先获得授权，项目维护需要花费大量精力，如果本项目对你有意义，请主动支持本项目。"
+        "notice": "默认页脚展示帧桥 API 和开源协议。"
       }
     }
   },
   "about": {
     "title": "关于",
-    "description": "One API 是一个开源的接口管理和代理平台。",
-    "repository": "项目地址：",
+    "description": "帧桥 API 是面向 Seedance 视频生成的 API 中转站原型，提供用户、渠道、额度和管理后台能力。",
+    "repository": "项目定位：",
     "loading_failed": "加载失败"
   },
   "footer": {
-    "built_by": "由",
-    "built_by_name": "JustSong",
-    "license": "构建，源代码遵循",
+    "built_by": "",
+    "built_by_name": "",
+    "license": "源代码遵循",
     "mit": "MIT 协议"
   },
   "home": {
     "welcome": {
-      "title": "欢迎使用 One API",
-      "description": "One API 是一个 LLM API 接口管理和分发系统，可以帮助您更好地管理和使用各大厂商的 LLM API。",
+      "title": "欢迎使用帧桥 API",
+      "description": "帧桥 API 是面向 Seedance 视频生成的 API 中转站原型，提供用户、渠道、额度和管理后台能力。",
       "login_notice": "如需使用，请先登录或注册。"
     },
     "system_status": {
@@ -748,7 +748,7 @@
         "name": "名称：",
         "version": "版本：",
         "source": "源码：",
-        "source_link": "GitHub 仓库",
+        "source_link": "本地二开版本",
         "start_time": "启动时间："
       },
       "config": {
